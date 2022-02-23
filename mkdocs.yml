@@ -1,0 +1,64 @@
+site_name: LNL3D Wiki
+
+#theming and features
+theme:
+  palette:
+    scheme: slate
+    primary: teal
+    accent: blue
+  name: material
+  logo: assets/LNL.png
+  features: 
+    - navigation.instant
+    - navigation.tracking
+ #   - navigation.tabs
+ #   - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+  icon:
+    repo: fontawesome/brands/github
+
+extra: 
+    homepage: https://lnl3d.com
+
+#navigation
+
+nav:
+  - index.md 
+  - updatingsoftware.md 
+  - TL-D3 Pro:
+    - TL-D3 Pro: TL-D3/index.md
+    - Specs: TL-D3/Specs.md
+    - Test: TL-D3/test.md
+    - Test2: TL-D3/test copy 2.md
+
+  - about.md
+
+#repo
+repo_name: LNL3D
+repo_url: https://github.com/LNL3D
+
+#extensions
+
+markdown_extensions:
+  - abbr
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true  
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format 
