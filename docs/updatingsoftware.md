@@ -28,11 +28,47 @@ ___
 ___
 ## **Finding the Right Firmware**
 
-    For Regular Extruders:
-        Firmware version will be between 1.0.0 and 1.0.26 <- being the latest. 
+!!! Notice "For Regular Extruders:"
+    Firmware version will be between 1.0.0 and 1.0.26 <- being the latest. 
 
-    The naming system seperates firmware by the LCD manufacturer and your Y axis switch type.lala
+The naming system seperates firmware by three things:
 
+* LCD manufacturer (TJC OR DWN)
+* Y Axis Switch Type (Mechanical or Optical)
+* Stepper motor driver type (4988 or 2208/2209)
+
+### LCD Type ###
+
+=== "TJC" 
+    ![TJC](assets/TJC.png){ align=left, width="300" }
+    ___
+    * UI version will begin with 1.2
+    * Back of the LCD will have a blue circuit board
+
+
+ 
+
+=== "DWN"
     
+    ![DWN](assets/DWN.png){ align=left, width="300" }
+    ___
+    * UI version will begin with 1.3
+    * Back of the LCD will have a green circuit board
 
-        
+### Y Axis Sensor Type ###
+
+=== "Optical (-O)" 
+    ![TJC](assets/TJC.png){ align=left, width="300" }
+    ___
+    * The switch will be an optical sensor with no moving parts
+
+
+ 
+
+=== "Mechanical (-M)"
+    
+    ![Mechanical](assets/mechanical.png){ align=left, width="300" }
+    ___
+    * The switch at the back of the bed will have a physical click
+
+### Stepper Driver Type ###
