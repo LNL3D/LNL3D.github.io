@@ -2,7 +2,7 @@
 
 ## **Introduction** 
 ???+ info "Before You Begin"
-    This page is a guide on how to properly update your TL or LNL printer. All steps are necessary in-order to complete the process. Please read every section carefully as one missed step can lead to malfunction. Proceed at your own risk.
+    This page is a guide on how to properly update your TL or LNL printer. This guide is compatible with all TL-D3, H2, D5, D6 printers. All steps are necessary in-order to complete the process. Please read every section carefully as one missed step can lead to malfunction. Proceed at your own risk.
 ___
 
 !!! Example "Resources"
@@ -111,7 +111,7 @@ The naming system seperates firmware by three things:
     !!! info inline end
         * Usually comes with a silver heatsink. 
 
-
+    ![4988 Driver](assets/4988.png){ align=left, width="400"}
 
 ## Uploading Firmare ##
 
