@@ -3,7 +3,7 @@ site_name: LNL3D Wiki
 #theming and features
 theme:
   palette:
-    scheme: slate
+    scheme: default
     primary: teal
     accent: blue
   name: material
@@ -22,11 +22,12 @@ theme:
 extra: 
     homepage: https://lnl3d.com
 
+
 #navigation
 
 nav:
   - index.md 
-  - updatingsoftware.md 
+  - updatingSoftware.md 
   - TL-D3 Pro:
     - TL-D3 Pro: TL-D3/index.md
     - Specs: TL-D3/Specs.md

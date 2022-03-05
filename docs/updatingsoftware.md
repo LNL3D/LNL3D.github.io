@@ -8,8 +8,8 @@ ___
 !!! Example "Resources"
     All firmware updates will require Xloader and the CH340 drivers. Please download from the links below.
 
-    [XLoader :octicons-file-16:](https://www.google.com){ .md-button }
-    [CH340 Driver :material-hammer-screwdriver:](https://www.google.com){ .md-button }
+    [XLoader :octicons-file-16:](https://www.lnl3d.com/FIRMWAREREQUEST){ .md-button .md-button--primary }
+    [CH340 Driver :material-hammer-screwdriver:](https://www.lnl3d.com/FIRMWAREREQUEST){ .md-button .md-button--primary }
 
 
 
