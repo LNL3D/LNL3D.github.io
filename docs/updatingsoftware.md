@@ -147,11 +147,12 @@ ___
 4.  Open the Xloader folder and run Xloader.exe.
 
     !!! info inline
-        Your parameters should have all of the same values as the image to the right. (The only things that will change is your hex file at the top and the COM-port). Click the dropdown menu to view your COM-ports.
+        Your parameters should have all of the same values as the image shown. (The only things that will change is your hex file at the top and the COM-port). Click the dropdown menu to view your COM-ports.
     ![xloader](assets/xloader.png){ align=right, width="300" }
 
 5. Once all parameters are set, click upload...
 
+___
     
 
 ## **FAQ** ##
