@@ -123,6 +123,7 @@ The naming system seperates firmware by three things:
 
     1. Press the Windows Key.
     2. Type Device Manager.
+    3. Navigate to USB Serial Devices
     
 
 
