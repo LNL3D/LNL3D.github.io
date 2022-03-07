@@ -2,7 +2,7 @@
 
 ## **Introduction** 
 ???+ info "Before You Begin"
-    This page is a guide on how to properly update your TL or LNL printer. This guide is compatible with all TL-D3, H2, D5, D6 printers. All steps are necessary in-order to complete the process. Please read every section carefully as one missed step can lead to malfunction. Proceed at your own risk.
+    This page is a guide on how to properly update your TL or LNL printer. This guide is compatible with all TL-D3, H2, D5, and D6 printers. All steps are necessary in-order to complete the process. Please read every section carefully as one missed step can lead to malfunction. Proceed at your own risk.
 ___
 
 !!! Example "Resources"
