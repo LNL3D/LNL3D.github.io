@@ -35,11 +35,35 @@ ___
 !!! Notice "For Regular Extruders:"
     Firmware version will be between 1.0.0 and 1.0.26 <- being the latest. 
 
-The naming system seperates firmware by three things:
+Firmware is seperated by four parameters:
 
+* Powersupply
 * LCD manufacturer (TJC OR DWN)
 * Y Axis Switch Type (Mechanical or Optical)
 * Stepper motor driver type (4988 or 2208/2209)
+
+### Power Supply ###
+
+!!! Warning "Troubleshooting"
+    Choosing the wrong powersupply can either limit the temperatures that your machine can reach or cause power failure if you try to draw too much power.
+
+=== "350W" 
+
+    !!! info inline end
+        * The bed cabling coming from the base of the printer will be attached by a metallic coupler.
+
+    ![TJC](assets/optical.png){ align=left, width="400" }
+
+
+
+ 
+
+=== "600W"
+
+    !!! info inline end
+        * The bed cabling coming from the base of the printer will just be a wire loom.
+
+    ![Mechanical](assets/mechanical.png){ align=left, width="400" }
 
 ### LCD Type ###
 
@@ -113,17 +137,39 @@ The naming system seperates firmware by three things:
 
     ![4988 Driver](assets/4988.png){ align=left, width="400"}
 
-## Uploading Firmare ##
+___
+
+## **Uploading Firmare** ##
 
 1. Ensure you have Xloader and the CH340 Driver installed.
-2. Plug in the connection between your PC and the printer.
+2. Download the appropriate firmware from our <a href="https://www.lnl3d.com/FIRMWAREREQUEST">request page</a>.
+3. Plug in the connection between your PC and the printer.
+4.  Open the Xloader folder and run Xloader.exe.
 
-??? notice "Optional Verification"
-    To verify that there is communication between your printer and the PC, you can open Device Manager to view your USB connections.
+    !!! info inline
+        Your parameters should have all of the same values as the image to the right. (The only things that will change is your hex file at the top and the COM-port). Click the dropdown menu to view your COM-ports.
+    ![xloader](assets/xloader.png){ align=right, width="300" }
 
-    1. Press the Windows Key.
-    2. Type Device Manager.
-    3. Navigate to USB Serial Devices
+5. Once all parameters are set, click upload...
+
     
+
+## **FAQ** ##
+    
+!!! notice "Cannot Open Port"
+
+    **This is typically caused by choosing the wrong COM-port or a faulty USB cable.**
+    
+        Verify your computer detects your printer:
+
+
+        1. Press the Windows Key.
+        2. Type Device Manager.
+        3. Navigate to USB Serial Devices.
+        4. Make sure the printer shows up, you can unplug and replug the connection to see any change in devices.
+
+!!! failure "Upload Failed?"
+    Sometimes Xloader will say upload failed but actually succesfully upload. Verify by going to your printer menu, settings, then checking the firmware version.
+
 
 
