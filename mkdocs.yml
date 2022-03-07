@@ -27,7 +27,7 @@ extra:
 
 nav:
   - index.md 
-  - updatingSoftware.md
+  - updatingsoftware.md
   - TL-D3 Pro:
     - TL-D3 Pro: TL-D3/index.md
     - Specs: TL-D3/Specs.md
