@@ -31,7 +31,7 @@ nav:
   - TL-D3 Pro:
     - TL-D3 Pro: TL-D3/index.md
     - Specs: TL-D3/Specs.md
-    - Test: TL-D3/test.md
+    - Repair: TL-D3/repair.md
   - about.md
 
 plugins:
