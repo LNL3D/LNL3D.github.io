@@ -143,15 +143,6 @@ ___
 ## **Uploading Firmware** ##
 
 
-### Video Guide
-
-!!! info "Video"
-    This is a simple tutorial video to show you the basic process. There is also a written guide below. 
-
-![type:video](https://www.youtube.com/embed/jtshZUqtghw)
-
-___
-
 1. Ensure you have Xloader and the CH340 Driver installed.
 2. Download the appropriate firmware from our <a href="https://www.lnl3d.com/FIRMWAREREQUEST">request page</a>.
 3. Plug in the connection between your PC and the printer.
