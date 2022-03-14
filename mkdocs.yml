@@ -34,8 +34,8 @@ nav:
     - Repair: TL-D3/repair.md
   - about.md
 
-plugins:
-    - mkdocs-video
+#plugins:
+ #   - mkdocs-video
     
 #repo
 repo_name: LNL3D
