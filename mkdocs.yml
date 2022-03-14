@@ -34,6 +34,9 @@ nav:
     - Test: TL-D3/test.md
   - about.md
 
+plugins:
+    - mkdocs-video
+    
 #repo
 repo_name: LNL3D
 repo_url: https://github.com/LNL3D

@@ -1,8 +1,8 @@
 # Updating Firmware
 
 ## **Introduction** 
-???+ info "Before You Begin"
-    This page is a guide on how to properly update your TL or LNL printer. This guide is compatible with all TL-D3, H2, D5, and D6 printers. All steps are necessary in-order to complete the process. Please read every section carefully as one missed step can lead to malfunction. Proceed at your own risk.
+
+ This page is a guide on how to properly update your TL or LNL printer. This guide is compatible with all TL-D3, H2, D5, and D6 printers. All steps are necessary in-order to complete the process. Please read every section carefully as one missed step can lead to malfunction. Proceed at your own risk.
 ___
 
 !!! Example "Resources"
@@ -15,11 +15,12 @@ ___
 
 
 !!! warning inline-end "Before Proceeding, Power Off Your Printer."
-    The motherboard should be updated with 5V power provided by USB.
+    The motherboard should be updated with 5V power provided by USB connection.
     
  You will need the following items:
 
 - [x] Windows PC
+- [x] CH340 drivers installed and Xloader
 - [x] Included USB A to USB B Cable
 - [x] Firmware suited for your specific unit
 
@@ -139,7 +140,17 @@ Firmware is seperated by four parameters:
 
 ___
 
-## **Uploading Firmare** ##
+## **Uploading Firmware** ##
+
+
+### Video Guide
+
+!!! info "Video"
+    This is a simple tutorial video to show you the basic process. There is also a written guide below. 
+
+![type:video](https://www.youtube.com/embed/jtshZUqtghw)
+
+___
 
 1. Ensure you have Xloader and the CH340 Driver installed.
 2. Download the appropriate firmware from our <a href="https://www.lnl3d.com/FIRMWAREREQUEST">request page</a>.
@@ -159,7 +170,7 @@ ___
     
 !!! notice "Cannot Open Port"
 
-    **This is typically caused by choosing the wrong COM-port or a faulty USB cable.**
+    ** 1. This is typically caused by choosing the wrong COM-port or a faulty USB cable.**
     
         Verify your computer detects your printer:
 
@@ -169,8 +180,12 @@ ___
         3. Navigate to USB Serial Devices.
         4. Make sure the printer shows up, you can unplug and replug the connection to see any change in devices.
 
-!!! failure "Upload Failed?"
-    Sometimes Xloader will say upload failed but actually succesfully upload. Verify by going to your printer menu, settings, then checking the firmware version.
+    ** 2. After downloading CH340 Drivers and installing, be sure to restart your PC.**
 
-<script src="//code.tidio.co/bulyfh6stfdevtfrrpxpugb8ijqcf6bx.js" async></script>
+!!! failure "Upload Failed?"
+    ** 1. Sometimes Xloader will say upload failed but actually succesfully upload. Verify by going to your printer menu, settings, then checking the firmware version. **
+
+    ** 2. Another cause of this could be a bad USB connection, try to change the USB port you're using or trying another cable. **
+
+
 
