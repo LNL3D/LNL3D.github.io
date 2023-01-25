@@ -1,5 +1,7 @@
 site_name: LNL3D Wiki
-site_url: lnl3d.github.io 
+site_url: https://lnl3d.github.io 
+
+site_description: This is a site dedicated to LNL3D 3D printers. Here you can find all sorts of information about our line of printers, as well as how to operate and repair them.
 
 #theming and features
 theme:
