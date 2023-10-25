@@ -1,0 +1,1 @@
+Here you will find some pinouts and general specifications to help design and create systems around the Tenlog ecosystem!

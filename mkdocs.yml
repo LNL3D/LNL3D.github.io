@@ -14,7 +14,7 @@ theme:
   features: 
     - navigation.instant
     - navigation.tracking
- #   - navigation.tabs
+#  - navigation.tabs
  #   - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
@@ -30,15 +30,15 @@ extra:
 
 nav:
   - index.md 
+  - Tenlog Specifications: TenlogSpecifications.md
   - updatingsoftware.md
-  - TL-D3 Pro:
-    - TL-D3 Pro: TL-D3/index.md
-    - Specs: TL-D3/Specs.md
-    - Repair: TL-D3/repair.md
+  - Vulcan Firmware Guide:
+    - Overview: firmware/index.md
   - about.md
 
-#plugins:
- #   - mkdocs-video
+plugins:
+  - mkdocs-video
+  - search
     
 #repo
 repo_name: LNL3D
